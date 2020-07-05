@@ -259,9 +259,7 @@ In the example below, SomePage will redirect to the home page.
 // SomePage.js
 import { Redirect, routes } from '@redwoodjs/router'
 
-const SomePage = () => {
-  <Redirect to={routes.home()}/>
-}
+const SomePage = () => <Redirect to={routes.home()}/>
 ```
 
 ## Code-splitting
